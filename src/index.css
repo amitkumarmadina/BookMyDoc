@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+.location-dropdown {
+  position: absolute;
+  top: 110%;
+  left: 0;
+  width: 100%;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  z-index: 10;
+  max-height: 220px;
+  overflow-y: auto;
+}
+
+.location-dropdown li {
+  padding: 10px 14px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.location-dropdown li:hover {
+  background: #f1f5f9;
+}
+
+.search-field.location {
+  position: relative;
+}
+
+.loading-text {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #6b7280;
+}

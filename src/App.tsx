@@ -31,7 +31,7 @@
 // export default App;
 
 
-function App() {
+ function App() {
   return (
     <div style={{ padding: 40, fontSize: 24 }}>
       BookMyDoc is Live 🚀

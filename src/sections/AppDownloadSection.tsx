@@ -60,7 +60,7 @@ export default function AppDownloadSection() {
 
           <div className="order-1 lg:order-2">
             <h2 className="text-4xl lg:text-5xl font-bold mb-6">
-              Download the BookMyDoc app
+              Download the SvasthyaConnect app
             </h2>
             <p className="text-xl text-teal-50 mb-8">
               Access video consultation with top doctors. Available 24/7 from the comfort of your home.

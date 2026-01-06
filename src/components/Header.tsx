@@ -12,7 +12,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center gap-2">
             <Stethoscope className="w-8 h-8 text-teal-600" />
-            <span className="text-2xl font-bold text-gray-900">BookMyDoc</span>
+            <span className="text-2xl font-bold text-gray-900">SvasthyaConnect</span>
           </div>
 
           <nav className="hidden lg:flex items-center gap-8">

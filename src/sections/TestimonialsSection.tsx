@@ -1,22 +1,28 @@
 import { useState } from 'react';
 import { ChevronLeft, ChevronRight, Quote } from 'lucide-react';
 import Container from '../components/Container';
+import priyaImage from '../assets/PriyaSharma.jpeg';
+import rahulImage from '../assets/RahulVerma.jpeg';
+import anjaliImage from '../assets/AnjaliPatel.jpeg';
 
 const testimonials = [
   {
     text: 'Very helpful. Far easier than doing the same things on computer. The app is well designed and makes it seamless to book appointments and consult with doctors.',
     author: 'Priya Sharma',
-    location: 'Mumbai',
+    location: 'Bokaro',
+    image: priyaImage
   },
   {
-    text: 'BookMyDoc has been a lifesaver! I was able to get a consultation within minutes, and the doctor was very professional and helpful. Highly recommend!',
+    text: 'SvasthyaConnect has been a lifesaver! I was able to get a consultation within minutes, and the doctor was very professional and helpful. Highly recommend!',
     author: 'Rahul Verma',
-    location: 'Delhi',
+    location: 'Ranchi',
+    image: rahulImage
   },
   {
     text: 'The online consultation feature is amazing. I could talk to a specialist from the comfort of my home. The platform is user-friendly and efficient.',
     author: 'Anjali Patel',
-    location: 'Bangalore',
+    location: 'Jamshedpur',
+    image: anjaliImage
   },
 ];
 
@@ -48,10 +54,30 @@ export default function TestimonialsSection() {
               </p>
             </div>
 
-            <div className="text-center">
+            {/* <div className="text-center">
               <p className="font-bold text-lg text-gray-900">{testimonials[currentIndex].author}</p>
               <p className="text-gray-600">{testimonials[currentIndex].location}</p>
-            </div>
+            </div> */}
+
+
+            
+            <div className="flex items-center justify-center gap-4">
+  <img
+    src={testimonials[currentIndex].image}
+    alt={testimonials[currentIndex].author}
+    className="w-12 h-12 rounded-full object-cover"
+  />
+
+  <div className="text-left">
+    <p className="font-bold text-lg text-gray-900">
+      {testimonials[currentIndex].author}
+    </p>
+    <p className="text-gray-600 text-sm">
+      {testimonials[currentIndex].location}
+    </p>
+  </div>
+</div>
+
 
             <div className="flex items-center justify-center gap-6 mt-8">
               <button

@@ -37,7 +37,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-6">
               <Stethoscope className="w-8 h-8 text-teal-400" />
-              <span className="text-2xl font-bold">BookMyDoc</span>
+              <span className="text-2xl font-bold">SvasthyaConnect</span>
             </div>
             <p className="text-gray-400 mb-6">
               Your trusted healthcare partner. Book appointments, consult doctors online, and access quality healthcare services.
@@ -116,7 +116,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-700 pt-8">
           <p className="text-center text-gray-400">
-            © 2026 BookMyDoc. All rights reserved.
+            © 2026 SvasthyaConnect. All rights reserved.
           </p>
         </div>
       </Container>

@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  
   "scripts": {
     
     "dev": "vite",
@@ -11,7 +12,7 @@
     "preview": "vite preview",
     "typecheck": "tsc --noEmit -p tsconfig.app.json",
     "postinstall": "chmod +x node_modules/.bin/*"
-    
+
   },
   "engines": {
     "node": "24.x"

@@ -21,7 +21,7 @@ export default function HealthAssistantButton() {
           <div className="flex items-center justify-between p-4 border-b">
             <div>
               <h4 className="font-semibold text-gray-800">
-                BookMyDoc Health Assistant
+                SvasthyaConnect Health Assistant
               </h4>
               <p className="text-xs text-gray-500">
                 Ask about symptoms or doctors

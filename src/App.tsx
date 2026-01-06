@@ -20,7 +20,7 @@ function App() {
         <InClinicSection />
         <HealthArticlesSection />
         <TestimonialsSection />
-        <AppDownloadSection />
+        
       </main>
       <Footer />
       <HealthAssistantButton/>
